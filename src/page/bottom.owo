@@ -1,0 +1,52 @@
+<template lang="pug">
+.bottom-c
+  p
+    a(href="#") 加入我们
+    |
+    a(href="#") 供应商招募
+    |
+    a(href="#") 用户服务协议
+    |
+    a(href="#") 隐私政策
+    |
+    a(href="#") 儿童隐私政策
+    |
+    a(href="#") 广播电视节目制作经营许可证（京）字第10596号
+    |
+    a(href="#") 营业执照
+    |
+    a(href="#") 备案内容承诺公示
+    |
+    a(href="#") 教师信息公示
+  p 京ICP备12032703号  |  京ICP证130009号  |  京公网安备11010502033993  |  教APP备1100012号|京网文（2018）2754-286号  |  北京猿力教育科技有限公司 版权所有
+  p 媒体接洽：pr@fenbi.com  |  客服电话：400-078-9100, 010-89177969 ( 周一至周日 8:00-21:00 )
+  p 违法和不良信息举报电话：400-078-9100 转4  |  网上有害信息举报|举报邮箱：jubao365@fenbi.com
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.bottom-c {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #091d47;
+  color: white;
+  font-size: 18px;
+  padding: 40px 0;
+  line-height: 45px;
+  text-align: center;
+  a {
+    color: white;
+    margin: 0 5px;
+  }
+  a:hover {
+    color: white;
+  }
+}
+</style>

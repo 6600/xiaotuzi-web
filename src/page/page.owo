@@ -1,0 +1,150 @@
+<template lang="pug">
+.home.show
+  plug(_name="topBar" _src="./src/page/topBar.owo")
+  img.so.so-0(src="@|653.png|")
+  img.so.so-1(src="@|649.png|")
+  img.so.so-2(src="@|471.png|")
+  img.so.so-3(src="@|650.png|")
+  img.so.so-4(src="@|613.png|")
+  img.so.so-5(src="@|647.png|")
+  img.so.so-6(src="@|623.png|")
+  img.so.so-7(src="@|618.png|")
+  img.so.so-8(src="@|645.png|")
+  img.so.so-9(src="@|651.png|")
+  img.so.so-10(src="@|646.png|")
+  img.so.so-11(src="@|652.png|")
+  .so.so-12.title 我们<br>的愿景
+  .so.so-13.text 目前，司法考试已经完成了信息化。从社会实用学的角度来讲，通过更加科学的计算机入门，能够让教育更加公平。特别是在中考高考和平实练习中。 如果大量的使用计算机进行辅助，可以帮助孩子们知道错在哪儿?错了多少?强化练习，就像人们在参考驾校的科目一考试一样。 迅速提升科目一的通关系。我们希望的是将计算机教育作为一种入门教育，帮助教育更加公平、减少社会的矛盾。通过教育和信息化，帮助贫困地区和欠发达地区的下一代，能够通过计算机帮助到自己的家乡。同时完成自己人生的成长。<br>我们相信，这一天不会太远!
+  .so.so-14.title 我们<br>的使命
+  .so.so-15.text 帮助中小学生平等的完成计算机基础教育的入门
+  .so.so-16.title 我们<br>的社会责任
+  .so.so-17.text 未来，所有的考试将会无纸化。让欠发达地区的孩子和- -线城市的孩子拥有一样的教育，是我们的责任。用爱，帮助更多的孩子。我们每年将向欠发达地区的100000中小学生，赠送小兔子打字软件。
+  //- 下载按钮
+  a.so.so-18
+    img(src="@|648.png|")
+  plug(_name="bottom" _src="./src/page/bottom.owo")
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.so {
+  position: absolute;
+}
+.so-0 {
+  left: 1008px;
+  top: 0px;
+  z-index: 0;
+}
+.so-1 {
+  left: 1108px;
+  top: 189px;
+  z-index: 17;
+}
+.so-2 {
+  left: 362px;
+  top: 344px;
+  z-index: 16;
+}
+.so-3 {
+  left: 0px;
+  top: 914px;
+  z-index: 0;
+}
+.so-4 {
+  left: 309px;
+  top: 1254px;
+  z-index: 14;
+}
+.so-5 {
+  left: 1014px;
+  top: 1102px;
+  z-index: 13;
+}
+.so-6 {
+  left: 1010px;
+  top: 2377px;
+  z-index: 12;
+}
+.so-7 {
+  left: 361px;
+  top: 2481px;
+  z-index: 11;
+}
+.so-8 {
+  left: 693px;
+  top: 2686px;
+  z-index: 10;
+}
+.so-9 {
+  left: 1073px;
+  top: 2136px;
+  z-index: 0;
+}
+.so-10 {
+  left: 213px;
+  top: 1472px;
+  z-index: 8;
+}
+.so-11 {
+  left: 969px;
+  top: 242px;
+  z-index: 7;
+}
+.so-12 {
+  left: 363px;
+  top: 207px;
+  z-index: 6;
+  color: #423F54;
+}
+.so-13 {
+  left: 363px;
+  top: 387px;
+  z-index: 5;
+  color: #252526;
+}
+.so-14 {
+  left: 1015px;
+  top: 965px;
+  z-index: 4;
+  color: #423F54;
+}
+.so-15 {
+  left: 1015px;
+  top: 1145px;
+  z-index: 3;
+  color: #252526;
+}
+.so-16 {
+  left: 361px;
+  top: 2344px;
+  z-index: 2;
+  color: #423F54;
+}
+.so-17 {
+  left: 362px;
+  top: 2524px;
+  z-index: 1;
+  color: #252526;
+}
+.so-18 {
+  left: 364px;
+  top: 2709px;
+  z-index: 0;
+}
+.title {
+  font-size: 36px;
+  font-weight: bold;
+}
+.text {
+  width: 600px;
+  font-size: 24px;
+  text-indent: 2em;
+  line-height: 37px;
+}
+</style>
