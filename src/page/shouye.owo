@@ -1,0 +1,344 @@
+<template lang="pug">
+.home.show
+  plug(_name="topBar" _src="./src/page/topBar.owo")
+  img.so.so-0(src="@|960.png|")
+  img.so.so-1(src="@|961.png|")
+  .so.so-2 错误的打字影响到孩子<br>成绩和健康
+  a.so.so-3(href="#" target="_blank" o-hover="grow")
+    img(src="@|962.png|")
+  .so.so-4 练成“二指禅”的坏习惯，特别难改
+  .so.so-5 现在孩子过早的学习了游戏、手机键盘用手指头戳。标准的键盘输入的指法，<br>在后期特别难以改正。直接影响孩子的作业时间和考试成绩。
+  a.so.so-6(href="#" target="_blank" o-hover="grow")
+    img(src="@|963.png|")
+  a.so.so-7(href="#" target="_blank" o-hover="grow")
+    img(src="@|964.png|")
+  img.so.so-8(src="@|966.png|")
+  img.so.so-9(src="@|968.png|")
+  img.so.so-10(src="@|967.png|")
+  img.so.so-11(src="@|970.png|")
+  img.so.so-12(src="@|521.png|")
+  .so.so-13 错误的打字习惯和姿势影<br>响孩子的颈椎容易造成孩<br>子驼背<br>
+  .so.so-14 现在的孩子很早就使用PAD和手机进行学习。很多家长在学习时注意坐<br>姿，而孩子在打字的时候特别不注意，容易造成孩子的颈椎病和驼背。
+  a.so.so-15(href="#" target="_blank" o-hover="grow")
+    img(src="@|969.png|")
+  .so.so-16 要求打字、独立完成PPT和思维脑图的知名学校
+  .so.so-17 根据我们的调查，将中国国内需要进行打字训练的知名中小学进行了部分整理<br>打字速度、PPT和思维脑图已变成了中小学生的必修课
+  a.so.so-18(href="#" target="_blank" o-hover="grow")
+    img(src="@|971.png|")
+  .so.so-19 让孩子更健康、习惯好、成绩高
+  .so.so-20 通过小兔子打字修正孩子的打字习惯，让孩子身体健康的同时<br>编程考试成绩更好
+  img.so.so-21(src="@|978.png|")
+  img.so.so-22(src="@|974.png|")
+  img.so.so-23(src="@|975.png|")
+  img.so.so-24(src="@|976.png|")
+  img.so.so-25(src="@|977.png|")
+  img.so.so-26(src="@|661.png|")
+  //- 按钮
+  a.so.so-27(href="#" target="_blank" o-hover="grow")
+    img(src="@|972.png|")
+  a.so.so-28(href="#" target="_blank" o-hover="grow")
+    img(src="@|973.png|")
+  //- 用户可选择的信息条
+  ul.text-list
+    li
+      h2 让孩子更健康：坐姿正确
+      p 正确的坐姿、打字姿势、打字手势，改正不良习惯的同时让孩子更健康。避免颈椎病和驼背。正确的视距，也可以有效缓解孩子的近视率 。
+    li
+      h2 轻量游戏化，让孩子更感兴趣
+      p 轻量级的游戏，让孩子更喜欢去联系打字，培养好的坐姿和正确的指法。
+    li
+      h2 古诗词和经典名句
+      p 我们加上了中小学的古诗词和经典名句，让孩子在联系的时候也能学好语文考试内容。
+  ul.card-list
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+    li
+      a(href="#" target="_blank" o-hover="grow")
+        img(src="@|show-logo.png|")
+  
+  plug(_name="bottom" _src="./src/page/bottom.owo")
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.so {
+  position: absolute;
+}
+.so-0 {
+  left: 854px;
+  top: 0px;
+  z-index: 0;
+}
+.so-1 {
+  left: 296px;
+  top: 132px;
+  z-index: 2;
+}
+.so-2 {
+  left: 359px;
+  top: 300px;
+  z-index: 26;
+  color: #252526;
+  font-size: 32px;
+  font-weight: bold;
+}
+.so-3 {
+  left: 359px;
+  top: 437px;
+  z-index: 25;
+}
+.so-4 {
+  left: 738px;
+  top: 1051px;
+  z-index: 24;
+  color: #252526;
+  font-size: 32px;
+  font-weight: bold;
+}
+.so-5 {
+  left: 686px;
+  top: 1130px;
+  z-index: 23;
+  color: #252526;
+  text-align: center;
+  font-size: 18px;
+}
+.so-6 {
+  left: 804px;
+  top: 1204px;
+  z-index: 22;
+}
+.so-7 {
+  left: 994px;
+  top: 1204px;
+  z-index: 21;
+}
+.so-8 {
+  left: 388px;
+  top: 1274px;
+  z-index: 20;
+}
+.so-9 {
+  left: 784px;
+  top: 1278px;
+  z-index: 19;
+}
+.so-10 {
+  left: 1175px;
+  top: 1278px;
+  z-index: 18;
+}
+.so-11 {
+  left: 0px;
+  top: 1999px;
+  z-index: 0;
+}
+.so-12 {
+  left: 418px;
+  top: 2176px;
+  z-index: 16;
+}
+.so-13 {
+  left: 1115px;
+  top: 2223px;
+  z-index: 15;
+  color: #252526;
+  font-size: 32px;
+  font-weight: bold;
+}
+.so-14 {
+  left: 1118px;
+  top: 2420px;
+  z-index: 14;
+  color: #252526;
+  text-align: center;
+  font-size: 18px;
+}
+.so-15 {
+  left: 1115px;
+  top: 2498px;
+  z-index: 13;
+}
+.so-16 {
+  left: 626px;
+  top: 3274px;
+  z-index: 12;
+  color: #252526;
+  font-size: 32px;
+  font-weight: bold;
+}
+.so-17 {
+  left: 656px;
+  top: 3345px;
+  z-index: 11;
+  color: #252526;
+  text-align: center;
+  font-size: 18px;
+}
+.so-18 {
+  left: 880px;
+  top: 3689px;
+  z-index: 10;
+}
+.so-19 {
+  left: 765px;
+  top: 3890px;
+  z-index: 9;
+  font-size: 32px;
+  color: #252526;
+  font-weight: bold;
+}
+.so-20 {
+  left: 750px;
+  top: 3961px;
+  z-index: 8;
+  color: #252526;
+  text-align: center;
+  font-size: 18px;
+}
+.so-21 {
+  left: 359px;
+  top: 4060px;
+  z-index: 7;
+}
+.so-22 {
+  left: 589px;
+  top: 4668px;
+  z-index: 6;
+}
+.so-23 {
+  left: 798px;
+  top: 4668px;
+  z-index: 5;
+}
+.so-24 {
+  left: 1017px;
+  top: 4668px;
+  z-index: 4;
+}
+.so-25 {
+  left: 1225px;
+  top: 4668px;
+  z-index: 3;
+}
+.so-26 {
+  left: 110px;
+  top: 4690px;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+}
+.so-27 {
+  left: 804px;
+  top: 4879px;
+  z-index: 1;
+}
+.so-28 {
+  left: 994px;
+  top: 4879px;
+  z-index: 0;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+}
+.text {
+  width: 600px;
+  font-size: 24px;
+  text-indent: 2em;
+  line-height: 37px;
+}
+.text-list {
+  position: absolute;
+  left: 900px;
+  top: 4084px;
+  z-index: 99;
+  width: 740px;
+  li {
+    margin: 35px 0;
+    cursor: pointer;
+    padding: 10px 130px;
+    h2 {
+      font-size: 28px;
+      line-height: 45px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #6b6b6b;
+      font-size: 15px;
+    }
+  }
+  li:hover {
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 10px;
+    p {
+      color: white;
+    }
+  }
+}
+.card-list {
+  position: absolute;
+  top: 3435px;
+  width: 978px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  li {
+    float: left;
+    a {
+      display: block;
+      position: relative;
+      margin: 20px;
+      width: 120px;
+      height: 70px;
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+  }
+}
+</style>
