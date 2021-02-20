@@ -1,0 +1,107 @@
+<template lang="pug">
+.home.show
+  plug(_name="topBar" _src="./src/page/topBar.owo")
+  .box.w1200.clear
+    .left.fl
+      h2 专业程序员回答：打字速度影响编程
+      .text-box
+        p 中新网2月8日电 据教育部网站消息，日前，教育部、国家发展改革委、工业和信息化部、财政部、国家广播电视总局等五部委联合印发了《关于大力加强中小学线上教育教学资源建设与应用的意见》(以下简称《意见》)。《意见》指出，用五年时间建立健全国家和省级中小学线上教育教学平台资源体系和运行机制。
+        p 《意见》指出，要着力解决三个问题：即丰富优质的资源建设问题、网络平台运行保障问题、线上资源与教育教学融合应用问题。基本目标是到2025年构建三个体系，一是基本形成定位清晰、互联互通、共建共享的线上教育平台体系；二是覆盖各类专题教育和各教材版本的学科课程资源体系；三是涵盖建设运维、资源开发、教学应用、推进实施等方面的政策保障制度体系。
+        p 《意见》提出了五项重要举措：一是加强国家、省、市、县、校级平台体系建设，统筹利用网络和电视渠道，促进资源共享，渠道互补，覆盖全体学生，国家层面完善国家中小学网络云平台和中国教育电视台空中课堂。
+        p 二是高质量开发资源，坚持把德智体美劳全面发展育人理念贯穿到资源建设中，重点开发两大类资源，广泛汇聚丰富的专题教育资源，以“四高”(即参与地区教育质量高，所在学校办学水平高，参与教师教学水平高，技术团队专业水平高)标准系统建设课程教学资源。
+        p 三是充分发挥平台资源作用，服务学生自主学习、服务教师改进教学、服务农村提高质量、服务应对重大公共事件以及增强师生互动交流。
+        p 四是提高师生应用能力，加大教师培养培训；提升学生信息素养，将信息素养培育有机融入各门学科教育教学。
+        p 五是完善政策保障体系。设立重点建设项目，用五年时间建立健全国家和省级中小学线上教育教学平台资源体系和运行机制；加强基础条件保障，明确教育等各部门的职责，加强协作；推进资源开发应用，完善资源开发遴选、优质资源奖励、应用动力机制。
+        p 《意见》还从加强组织领导、狠抓工作落实、注重典型引领等三个方面提出了明确要求，并特别强调各地要研究制定切实可行的实施计划，有序推进线上线下教育教学深度融合，确保各项工作落到实处。
+    .right.fr
+      h4 已经开始的部分知名学校
+      .logo-box.clear
+        .logo-item
+          img(src="@|show-logo.png|")
+        .logo-item
+          img(src="@|show-logo.png|")
+        .logo-item
+          img(src="@|show-logo.png|")
+        .logo-item
+          img(src="@|show-logo.png|")
+        .logo-item
+          img(src="@|show-logo.png|")
+        .logo-item
+          img(src="@|show-logo.png|")
+        .logo-item
+          img(src="@|show-logo.png|")
+        .logo-item
+          img(src="@|show-logo.png|")
+      .info 注：上述商标归各自单位所有
+  plug(_name="bottom" _src="./src/page/bottom.owo")
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.so {
+  position: absolute;
+}
+.top-bar, .bottom-c {
+  position: relative;
+}
+.left {
+  width: 760px;
+  h2 {
+    color: #252526;
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  .text-box {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    text-indent: 2em;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+}
+.right {
+  width: 430px;
+  h4 {
+    line-height: 40px;
+    color: #252526;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .logo-item {
+    float: left;
+    margin: 10px 20px;
+    box-shadow: 1px 1px 8px #ecdddd;
+    width: 160px;
+    height: 70px;
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+}
+.show .box {
+  margin-top: 60px;
+}
+.info {
+  color: #999;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.bottom-c {
+  font-size: 16px;
+}
+</style>

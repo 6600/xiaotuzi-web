@@ -121,135 +121,73 @@ li {
   position: absolute;
 }
 
-.so-0 {
-  left: 1008px;
-  top: 0px;
-  z-index: 0;
+.top-bar,
+.bottom-c {
+  position: relative;
 }
 
-.so-1 {
-  left: 1108px;
-  top: 189px;
-  z-index: 17;
+.left {
+  width: 760px;
 }
 
-.so-2 {
-  left: 362px;
-  top: 344px;
-  z-index: 16;
-}
-
-.so-3 {
-  left: 0px;
-  top: 914px;
-  z-index: 0;
-}
-
-.so-4 {
-  left: 309px;
-  top: 1254px;
-  z-index: 14;
-}
-
-.so-5 {
-  left: 1014px;
-  top: 1102px;
-  z-index: 13;
-}
-
-.so-6 {
-  left: 1010px;
-  top: 2377px;
-  z-index: 12;
-}
-
-.so-7 {
-  left: 361px;
-  top: 2481px;
-  z-index: 11;
-}
-
-.so-8 {
-  left: 693px;
-  top: 2686px;
-  z-index: 10;
-}
-
-.so-9 {
-  left: 1073px;
-  top: 2136px;
-  z-index: 0;
-}
-
-.so-10 {
-  left: 213px;
-  top: 1472px;
-  z-index: 8;
-}
-
-.so-11 {
-  left: 969px;
-  top: 242px;
-  z-index: 7;
-}
-
-.so-12 {
-  left: 363px;
-  top: 207px;
-  z-index: 6;
-  color: #423F54;
-}
-
-.so-13 {
-  left: 363px;
-  top: 387px;
-  z-index: 5;
+.left h2 {
   color: #252526;
+  font-size: 28px;
+  margin-bottom: 40px;
 }
 
-.so-14 {
-  left: 1015px;
-  top: 965px;
-  z-index: 4;
-  color: #423F54;
-}
-
-.so-15 {
-  left: 1015px;
-  top: 1145px;
-  z-index: 3;
-  color: #252526;
-}
-
-.so-16 {
-  left: 361px;
-  top: 2344px;
-  z-index: 2;
-  color: #423F54;
-}
-
-.so-17 {
-  left: 362px;
-  top: 2524px;
-  z-index: 1;
-  color: #252526;
-}
-
-.so-18 {
-  left: 364px;
-  top: 2709px;
-  z-index: 0;
-}
-
-.title {
-  font-size: 36px;
-  font-weight: bold;
-}
-
-.text {
-  width: 600px;
-  font-size: 24px;
+.left .text-box {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 40px;
   text-indent: 2em;
-  line-height: 37px;
+}
+
+.left p {
+  margin-bottom: 10px;
+}
+
+.right {
+  width: 430px;
+}
+
+.right h4 {
+  line-height: 40px;
+  color: #252526;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.right .logo-item {
+  float: left;
+  margin: 10px 20px;
+  box-shadow: 1px 1px 8px #ecdddd;
+  width: 160px;
+  height: 70px;
+  position: relative;
+}
+
+.right .logo-item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.show .box {
+  margin-top: 60px;
+}
+
+.info {
+  color: #999;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bottom-c {
+  font-size: 16px;
 }
 

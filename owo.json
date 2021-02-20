@@ -88,7 +88,7 @@
 	"pageList": [
 		{
 			"name": "page",
-			"src": "./src/page/page.owo",
+			"src": "./src/page/xinwen.owo",
 			"type": "page"
 		}
 	],
